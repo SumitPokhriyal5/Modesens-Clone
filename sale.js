@@ -9,16 +9,18 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
     {
         id: 2,
         image:["https://cdn.modesens.com/product/23141173_32?w=400","https://cdn.modesens.com/media/100438917","https://cdn.modesens.com/media/100438919"],
-        // icon: '<i class="fa fa-thin fa-heart"  ></i>',
+       
         p1: "MM6 MAISON MARGIELA",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (65% OFF) - $1339",
-        p4: "compare 5 stores"
+        p4: "compare 5 stores",
+        gender: "WOMEN",
     },
 
     {
@@ -27,7 +29,8 @@ let data = [
         p1: "ZADIG & VOLTAIRE",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "MEN",
     },
     {
         id: 4,
@@ -35,7 +38,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1439",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
     {
         id: 5,
@@ -43,15 +47,17 @@ let data = [
         p1: "ZADIG & VOLTAIRE",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1754",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "MEN",
     },
     {
         id: 6,
-        image:["https://cdn.modesens.com/product/47184764_2?w=400","https://modesens.com/product/ted-baker-dorras-crewneck-boucle-sweater-natural-47184764/","https://cdn.modesens.com/media/135061219"],
+        image:["https://cdn.modesens.com/product/47184764_2?w=400","https://cdn.modesens.com/media/135061219"],
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
     {
         id: 7,
@@ -59,7 +65,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1539",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
     {
         id: 8,
@@ -67,7 +74,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1869",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
 
     {
@@ -76,7 +84,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1379",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "MEN",
     },
     {
         id: 10,
@@ -84,7 +93,8 @@ let data = [
         p1: "TED BEAKER",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1989",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "MEN",
     },
     {
         id: 11,
@@ -92,7 +102,8 @@ let data = [
         p1: "TED BEAKER",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "BAG",
     },
     {
         id: 12,
@@ -100,7 +111,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "MEN",
     },
     {
         id: 13,
@@ -108,7 +120,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
     {
         id: 14,
@@ -116,7 +129,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "MEN",
     },
     {
         id: 15,
@@ -124,7 +138,8 @@ let data = [
         p1: "TED BEAKER",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
     {
         id: 16,
@@ -132,7 +147,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
     {
         id: 17,
@@ -140,7 +156,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "MEN",
     },
     {
         id: 18,
@@ -148,7 +165,8 @@ let data = [
         p1: "ZADIG & VOLTAIRE",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
     {
         id: 19,
@@ -156,7 +174,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
     {
         id: 20,
@@ -164,7 +183,8 @@ let data = [
         p1: "ZADIG & VOLTAIRE",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "BAG",
     },
     {
         id: 21,
@@ -172,7 +192,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "MEN",
     },
     {
         id: 22,
@@ -180,7 +201,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "MEN",
     },
     {
         id: 23,
@@ -188,7 +210,8 @@ let data = [
         p1: "ZADIG & VOLTAIRE",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "BAG",
     },
     {
         id: 24,
@@ -196,7 +219,8 @@ let data = [
         p1: "TED BEAKER",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
     {
         id: 25,
@@ -204,7 +228,8 @@ let data = [
         p1: "TED BEAKER",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
     {
         id: 26,
@@ -212,7 +237,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "SHOE",
     },
     {
         id: 27,
@@ -220,7 +246,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "SHOE",
     },
     {
         id: 28,
@@ -228,7 +255,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "WOMEN",
     },
     {
         id: 29,
@@ -236,7 +264,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "MEN",
     },
     {
         id: 30,
@@ -244,7 +273,8 @@ let data = [
         p1: "ETRO",
         p2: "Black Nylon Floral Bomber Jacket",
         p3: "$462 (60% OFF) - $1739",
-        p4: "compare 10 stores"
+        p4: "compare 10 stores",
+        gender: "MEN",
     },
 
 ]
@@ -441,5 +471,6 @@ const selectedproduct = (el) =>{
 let arr = []
 arr.push(el)
 localStorage.setItem("selectpro", JSON.stringify(arr))
+window.location = "product.html"
 
 }

@@ -9,7 +9,7 @@ body{
 
 .uppersec{
     margin: 0 0 0 25%;
-    border: 1px solid red;
+    
 }
 .uppersec h1{
     font-family: "font-family: Tahoma, Verdana, sans-serif";
@@ -24,7 +24,7 @@ body{
 .pagination{
     height: 30px;
    text-align: center;
-   border: 1px solid red;
+  
    margin: 50px 0 0 25%;
    width:75%
 }
@@ -47,7 +47,7 @@ height: 30px;
 
 #container{
     display: flex;
-    border: 1px solid red;
+   
     justify-content: space-between;
     margin-top: 20px;
 }
@@ -60,7 +60,7 @@ height: 30px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     width: 75%;
-    border: 1px solid red;
+  
     height: 800px;
 
 }
