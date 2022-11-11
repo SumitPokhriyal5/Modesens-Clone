@@ -1,0 +1,124 @@
+
+.arieal{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.community_div{
+    /* border: 2px solid black; */
+    border-top: 2px solid #dfdedd;
+    margin-top:50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    width: 80%;
+    height: auto;
+}
+#community_heading{
+    /* border: 2px solid red; */
+    padding-top: 13px;
+    text-align: center;
+    width: 22%;
+    height: 50px;
+    position: absolute;
+    left: 39%;
+    top: -55px;
+    background: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#community_poster{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+}
+#community_poster>div{
+    border: 2px solid rgb(243, 242, 242);
+    width: 24%;
+    height:300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#community_poster img{
+    width: 80%;
+}
+#community_button{
+    /* border: 2px solid red; */
+    margin: auto;
+    position: relative;
+ }
+#community_button button{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    background: white;
+    left: 46%;
+    top: -30px;
+
+}
+#community_button button:hover{
+    background: black;
+    color: white;
+}
+.community_banner{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: auto;
+    background: #f8f7f6;
+    margin-top: 100px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.community_banner>div{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.community_banner>div>div{
+    /* border: 2px solid rgb(215, 11, 11); */
+    margin-bottom: 20px;
+    width: 60%;
+    text-align: center;
+}
+.community_banner button{
+    background: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}
+#community_button_1{
+   background: white;
+    position: absolute;
+    left: -50px;
+    top: 180px;
+    cursor: pointer;
+}
+#community_button_1 button{
+   
+    background: rgb(182, 32, 32);
+    border: 0;
+ }
+#community_button_1 i{
+   font-size: 40px;
+   cursor: pointer;
+}
+#community_button_2{
+    
+    position: absolute;
+    right: -50px;
+    top: 180px;
+    
+}
+#community_button_2 button{
+  
+    background: rgb(199, 14, 14);
+    border: 0;
+ }
+#community_button_2 i{
+    font-size: 40px;
+    cursor: pointer;
+ }
