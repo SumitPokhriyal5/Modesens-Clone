@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <style>
+        #main {
+        display: flex;
+        width: 70%;
+        margin: auto;
+        border: 3px solid black;
+        text-align: center;
+      }
+      #a {
+        border: 2px solid red;
+        margin: auto;
+        background-color: rgb(14, 3, 3);
+        padding-bottom: 80px;
+        color: white;
+        width: 45%;
+      }
+      #a > h1 {
+        font-size: 70px;
+      }
+      #a > h3 {
+        border: 2px solid red;
+        margin-top: -50px;
+      }
+      #b {
+        border: 2px solid green;
+        margin: auto;
+        width: 45%;
+      }
+      #a1 {
+        border: 2px solid orange;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div id="main">
+        <div id="a">
+            <h1>MODESENS</h1>
+            <h3>BY SHOPPERS FOR SHOPPERS</h3>
+            <div id="a1">
+              <h3>COMPARE ACROSS 500+ STORES</h3>
+              <h3>GET ALERT ON YOUR ITEMS</h3>
+              <h3>SAVE YOUR SEARCHES</h3>
+              <h3>MANAGE YOUR SHOPPING LIST</h3>
+              <h3>EARN POINTS</h3>
+            </div>
+          </div>
+        <div id="b">
+
+            <form>
+                <h1>Login</h1>
+                <input type="email" id="email" placeholder="Email" autocomplete="off" />
+                <br />
+                <br />
+                <input type="password" id="pwd" placeholder="Password" />
+                <br />
+                <br />
+                <input type="submit" value="submit" onclick="checkData()" />
+              </form>
+              <script src="login.js"></script>
+        </div>
+        
+        </div>
+    </div>
+     
+    </div>
+  </body>
+</html>
+
+

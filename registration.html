@@ -4,40 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registration</title>
+    <title>Document</title>
     <style>
+      #main {
+        display: flex;
+        width: 70%;
+        margin: auto;
+        border: 3px solid black;
+        text-align: center;
+      }
       #a {
         border: 2px solid red;
         margin: auto;
-        width: 400px;
-        margin-top: 50px;
-        text-align: center;
-        padding-top: 20px;
+        background-color: rgb(14, 3, 3);
+        padding-bottom: 80px;
+        color: white;
+        width: 45%;
+      }
+      #a > h1 {
+        font-size: 70px;
+      }
+      #a > h3 {
+        border: 2px solid red;
+        margin-top: -50px;
       }
       #b {
-        background-color: rgb(37, 37, 36);
-        border: 2px solid red;
-      }
-      #main {
-        display: flex;
+        border: 2px solid green;
         margin: auto;
+        width: 45%;
+      }
+      #a1 {
+        border: 2px solid orange;
+        text-align: center;
       }
     </style>
   </head>
   <body>
     <div id="main">
-      <div id="b">
-        <h1>MODESENS</h1>
-      </div>
       <div id="a">
-        <form>
-          <input type="email" id="email" placeholder="Email" />
+        <h1>MODESENS</h1>
+        <h3>BY SHOPPERS FOR SHOPPERS</h3>
+        <div id="a1">
+          <div>
+            <img src="" alt="" />
+            <i class="fa-light fa-bag-shopping"></i>
+            <h3>COMPARE ACROSS 500+ STORES</h3>
+          </div>
+
+          <h3>GET ALERT ON YOUR ITEMS</h3>
+          <h3>SAVE YOUR SEARCHES</h3>
+          <h3>MANAGE YOUR SHOPPING LIST</h3>
+          <h3>EARN POINTS</h3>
+        </div>
+      </div>
+      <div id="b">
+        <h1>Registration</h1>
+        <form action="login.html">
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            autocomplete="off"
+          />
           <br />
           <br />
-          <input type="password" id="password" placeholder="password" />
+          <input type="password" id="pwd" placeholder="Password" />
           <br />
           <br />
-          <input type="submit" value="submit" onclick="addData" () />
+          <input type="submit" value="submit" onclick="addData()" />
         </form>
       </div>
     </div>
