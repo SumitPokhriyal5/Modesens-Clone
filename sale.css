@@ -74,8 +74,11 @@ height: 30px;
     text-align: center;
     border: 1px solid rgb(251, 241, 241);
 }
- 
+ .icon:hover{
+    cursor: pointer;
+ }
 .changeicon{
     color:red;
+    
 }
 
