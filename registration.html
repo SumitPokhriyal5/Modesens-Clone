@@ -4,50 +4,98 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Registration</title>
     <style>
       #main {
         display: flex;
         width: 70%;
         margin: auto;
-        border: 3px solid black;
+        border: 0px solid black;
+        border-radius: 10px;
         text-align: center;
+        margin-top: 70px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+          rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
       }
       #a {
-        border: 2px solid red;
+        border: 0px solid red;
         margin: auto;
         background-color: rgb(14, 3, 3);
         padding-bottom: 80px;
         color: white;
         width: 45%;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+          rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
       }
       #a > h1 {
         font-size: 70px;
       }
       #a > h3 {
-        border: 2px solid red;
+        border: 0px solid red;
         margin-top: -50px;
       }
       #b {
-        border: 2px solid green;
+        border: 0px solid green;
         margin: auto;
         width: 45%;
       }
       #a1 {
-        border: 2px solid orange;
+        border: 0px solid orange;
         text-align: center;
+        margin-top: 30px;
+      }
+      #last {
+        border: 0px solid red;
+        justify-content: space-evenly;
+        display: flex;
+        margin-top: 30px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      #last > div > img {
+        width: 100%;
+        border: 0px solid red;
+        border-radius: 5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+      h2 {
+        border: 0px solid red;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+          rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      }
+      h1 {
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+      }
+      button {
+        border: 0px solid goldenrod;
+      }
+      h3 {
+        border: 0px solid rebeccapurple;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+          rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      }
+      #w {
+        border: 0px solid red;
+        font-size: 40px;
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        background-color: rgb(237, 198, 198);
+        color: red;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
       }
     </style>
   </head>
   <body>
+    <div id="w">WEL-COME</div>
     <div id="main">
       <div id="a">
         <h1>MODESENS</h1>
         <h3>BY SHOPPERS FOR SHOPPERS</h3>
         <div id="a1">
           <div>
-            <img src="" alt="" />
-            <i class="fa-light fa-bag-shopping"></i>
             <h3>COMPARE ACROSS 500+ STORES</h3>
           </div>
 
@@ -59,6 +107,8 @@
       </div>
       <div id="b">
         <h1>Registration</h1>
+        <h2>Unleash your shopping power.</h2>
+        <h2>Check ModeSens before you buy.</h2>
         <form action="login.html">
           <input
             type="email"
@@ -73,6 +123,36 @@
           <br />
           <input type="submit" value="submit" onclick="addData()" />
         </form>
+
+        <div id="x">
+          <h3>Or</h3>
+        </div>
+        <div id="last">
+          <div class="l">
+            <img
+              src="https://modesens.com/static/img/login-icon/20210617google.svg"
+              alt=""
+            />
+          </div>
+          <div class="l">
+            <img
+              src="https://modesens.com/static/img/login-icon/20210617facebook.svg"
+              alt=""
+            />
+          </div>
+          <div class="l">
+            <img
+              src="https://modesens.com/static/img/login-icon/20210617apple.svg"
+              alt=""
+            />
+          </div>
+          <div class="l">
+            <img
+              src="https://modesens.com/static/img/login-icon/20210617wechat.svg"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </div>
     <script src="registration.js"></script>
