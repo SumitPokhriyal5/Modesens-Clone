@@ -282,6 +282,11 @@ let data = [
 
 
 
+import {modesens_navbar, modesens_community, modesens_footer} from "../component.js"
+
+let nav = document.querySelector("#navbar")
+nav.innerHTML = modesens_navbar()
+
 
 const append =(data)=>{
     data.map((el,i)=>{
