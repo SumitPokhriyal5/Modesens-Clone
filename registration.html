@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration</title>
     <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+      }
       #main {
         display: flex;
-        width: 70%;
+        width: 90%;
         margin: auto;
         border: 0px solid black;
         border-radius: 10px;
@@ -23,57 +26,59 @@
         background-color: rgb(14, 3, 3);
         padding-bottom: 80px;
         color: white;
-        width: 45%;
+        width: 50%;
+        height: 500px;
+        padding: 0 60px 60px 60px;
         box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
           rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
           rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
       }
       #a > h1 {
         font-size: 70px;
+        margin-top: 40px;
+        font-weight: 100;
       }
       #a > h3 {
-        border: 0px solid red;
-        margin-top: -50px;
+       
+        font-weight: 100;
       }
       #b {
-        border: 0px solid green;
-        margin: auto;
-        width: 45%;
+        
+       width: 50%;
+        padding: 0 50px 0 50px;
+        font-weight: 100;
       }
       #a1 {
         border: 0px solid orange;
         text-align: center;
         margin-top: 30px;
+        font-weight: 100;
       }
       #last {
-        border: 0px solid red;
+        
         justify-content: space-evenly;
         display: flex;
         margin-top: 30px;
         background-color: white;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
       }
       #last > div > img {
         width: 100%;
         border: 0px solid red;
         border-radius: 5px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        
       }
       h2 {
         border: 0px solid red;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-          rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+       
       }
-      h1 {
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-      }
+     
       button {
         border: 0px solid goldenrod;
       }
       h3 {
         border: 0px solid rebeccapurple;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-          rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      
       }
       #w {
         border: 0px solid red;
@@ -86,30 +91,80 @@
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 10px;
       }
+      #b>h1{
+        margin-top: 100px;
+        font-weight: 200;
+      }
+      #b>h2{
+        font-size: 14px;
+        font-weight: 100;
+      }
+      input{
+        
+        width: 250px;
+        height: 25px;
+      }
+      #bh2{
+        margin-bottom: 40px;
+      }
+      #sub{
+        height: 40px;
+        background-color: black;
+        color: white;
+        font-size: 17px;
+      }
+      #ah3{
+          margin-top: -50px;
+      }
+      #ch3{
+        margin-bottom: 90px;
+        font-weight: 200;
+        font-size: 16px;
+      }
+      #dh3{
+        
+        font-weight: 200;
+        font-size: 16px;
+      }
+      #eh3{
+       
+        font-weight: 200;
+        font-size: 16px;
+      }
+      #fh3{
+       
+        font-weight: 200;
+        font-size: 16px;
+      }
+      #gh3{
+        
+        font-weight: 200;
+        font-size: 16px;
+      }
     </style>
   </head>
   <body>
-    <div id="w">WEL-COME</div>
+   
     <div id="main">
       <div id="a">
         <h1>MODESENS</h1>
-        <h3>BY SHOPPERS FOR SHOPPERS</h3>
+        <h3 id="ah3">BY SHOPPERS FOR SHOPPERS</h3>
         <div id="a1">
           <div>
-            <h3>COMPARE ACROSS 500+ STORES</h3>
+            <h3 id="ch3">COMPARE ACROSS 500+ STORES</h3>
           </div>
 
-          <h3>GET ALERT ON YOUR ITEMS</h3>
-          <h3>SAVE YOUR SEARCHES</h3>
-          <h3>MANAGE YOUR SHOPPING LIST</h3>
-          <h3>EARN POINTS</h3>
+          <h3 id="dh3">GET ALERT ON YOUR ITEMS</h3>
+          <h3 id="eh3">SAVE YOUR SEARCHES</h3>
+          <h3 id="fh3">MANAGE YOUR SHOPPING LIST</h3>
+          <h3 id="gh3">EARN POINTS</h3>
         </div>
       </div>
       <div id="b">
-        <h1>Registration</h1>
+        <h1>Create your account</h1>
         <h2>Unleash your shopping power.</h2>
-        <h2>Check ModeSens before you buy.</h2>
-        <form action="login.html">
+        <h2 id="bh2">Check ModeSens before you buy.</h2>
+        <form action="login.html" id="form">
           <input
             type="email"
             id="email"
@@ -121,11 +176,11 @@
           <input type="password" id="pwd" placeholder="Password" />
           <br />
           <br />
-          <input type="submit" value="submit" onclick="addData()" />
+          <input type="submit" value="submit" id="sub" onclick="addData()" />
         </form>
 
         <div id="x">
-          <h3>Or</h3>
+          
         </div>
         <div id="last">
           <div class="l">
