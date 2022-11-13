@@ -171,5 +171,7 @@ let arr1=[
    const adddetail = () =>{
      arr5.push(selectedproduct[0])
      localStorage.setItem("addproduct", JSON.stringify(arr5))
+
+    window.location.href = "add.html"
    }
  
