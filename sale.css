@@ -1,0 +1,131 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+#navbar{
+    height: 70px;
+    border: 1px solid red;
+}
+
+.uppersec{
+    margin: 0 0 0 25%;
+    
+}
+.uppersec h1{
+   
+    font-weight: 600;
+    font-size: 25px;
+}
+.uppersec p{
+    
+    margin: 20px 0 0 0 ;
+   font-size: 15px;
+}
+.pagination{
+    height: 30px;
+   text-align: center;
+  
+   margin: 50px 0 0 25%;
+   width:75%
+}
+.pagination button{
+background-color: white;
+border: none;
+
+width: 30px;
+height: 30px;
+
+}
+.pagination button:hover{
+    border-bottom: 1px solid rgb(231, 17, 17);
+}
+.pagination button p{
+ font-size: 12px;
+ font-weight: 600;
+
+}
+
+#container{
+    display: flex;
+   
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#sort{
+    width: 22%;
+    height: 400px;
+   
+    margin-top: -50px;
+}
+#product{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 75%;
+  
+    height: 800px;
+
+}
+@media all and (min-width:701px) and (max-width:1000px){
+    #product{
+        grid-template-columns: repeat(2,1fr); 
+    }
+    
+}
+@media all and (min-width:300px) and (max-width:700px){
+    #product{
+        grid-template-columns: repeat(1,1fr); 
+    }
+    
+}
+.image{
+    width: 80%;
+    height: 280px;
+    margin-bottom: 10px;
+   
+}
+.card{
+    text-align: center;
+    border: 1px solid rgb(251, 241, 241);
+}
+ .icon:hover{
+    cursor: pointer;
+ }
+.changeicon{
+    color:red;
+    
+}
+
+select{
+    width: 100%;
+    height: 40px;
+    color:rgb(135, 131, 131);
+   
+    font-size: 12px;
+    border: none;
+    
+}
+option{
+  color:grey;
+ 
+}
+#filBox{
+border-bottom:1px solid rgb(248, 241, 241);
+font-size: 13px;
+
+color: rgb(24, 23, 23);
+}
+#sortP{
+    font-size: 12px; 
+    color:rgb(135, 131, 131);
+  
+}
+#filbtn{
+    width: 95%;
+    height: 40px;
+    background-color: white;
+    border:1px solid rgb(0, 0, 0);
+    font-weight: 550;
+    color: rgb(60, 59, 59);
+    margin-left: 5px;
+}
+

@@ -1,0 +1,225 @@
+
+.navbar{
+    height: 70px;
+    border: 1px solid red;
+}
+.container{
+    display:flex;
+   
+    width: 90%;
+    margin: auto;
+}
+@media (max-width:800px){
+.container{
+    flex-direction: column;
+}
+}
+
+#proName{
+    margin: 21px 0 0 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+#proGender{
+    margin: 21px 0 0 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+#h4ofcontainer{
+    margin-left: 10px;
+}
+#container2{
+    display:flex; 
+
+    justify-content: space-between;
+  
+    width: 90%;
+    margin: 15px auto auto auto;
+    height: 220px;
+}
+
+@media (max-width: 800px) {
+    #container2 {
+      flex-direction: column;
+    }
+  }
+
+#container2 div{
+   
+    width: 50%;
+
+}
+#c1img{
+
+    height: 100%;
+    margin: auto;
+  
+}
+#c2 div{
+    width: 80%;
+}
+.c1imgage{
+    width: 60%;
+    height: 100%;
+    margin-left: 50px;
+}
+#btn1{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    width: 25px;
+    height: 20px;
+    margin: -120px 0 0 368px;
+
+}
+#btn2{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    width: 25px;
+    height: 20px;
+    margin: -25px 0 0 155px;
+
+}
+
+#container3{
+    display:flex;
+    justify-content: space-between;
+  
+    width: 90%;
+    margin: 15px auto auto auto;
+   
+}
+@media (max-width: 800px) {
+    #container3 {
+      flex-direction: column;
+    }
+  }
+
+
+#container3 div{
+    width: 45%;
+   
+}
+#lowerDiv{
+    display: grid;
+    width: 90%;
+    margin: 50px auto auto  auto;
+    grid-template-columns: repeat(2,1fr);
+   
+
+}
+@media (max-width: 800px) {
+    #lowerDiv {
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+
+.lowerDivImg{
+    width: 60px;
+    height: 70px;
+    margin-top: 10px;
+}
+.maincard{
+    display: flex;
+}
+
+.c2h1{
+    font-weight: 600;
+}
+.c2p{
+    font-size: 14px;
+    margin-top: 20px;
+    color:rgb(132, 126, 124);
+}
+.c2price{
+    color: rgb(192,16,38);
+    font-weight: 550;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.c2shop{
+    margin-top: 20px;
+    font-size: 14px;
+    text-decoration: underline;
+
+}
+.c2ad{
+    margin-top: 20px;
+    font-size: 14px;
+   
+}
+#span1{
+    text-decoration: underline;
+}
+#span2{
+    color: rgb(192,16,38);
+    font-weight: 550;
+}
+#c3d1 h2{
+    font-size: 19px;
+}
+#c3d1 p{
+ color: rgb(164,151,144);
+}
+.color{
+    color: rgb(164,151,144);
+    text-decoration: underline;
+}
+
+#c3d2 button:nth-child(1){
+    width:48%;
+    height: 40px;
+    margin: 32px 0 0 0;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+#c3d2 button:nth-child(2){
+    width:48%;
+    height: 40px;
+    margin: 32px 0 0 0;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+#c3d2 button p{
+    margin: auto;
+}
+#lowerh1{
+    font-size: 13px;
+    margin: 40px 0 0 60px;
+}
+.lowerdivh2{
+    font-size: 14px;
+  
+}
+.lowerp1{
+    font-size: 14px;
+    color: rgb(192,16,38);
+    font-weight: 550;
+
+}
+.lowerp2{
+    font-size: 13px;
+    color: rgb(129, 125, 123);
+}
+#span5{
+    text-decoration: line-through;
+    color: black ;
+    font-weight: 550;
+}
+.lowerbtn{
+    margin: 30px 0 0 20px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color:white;
+    font-size: 10px;
+    font-weight: 550;
+}
+.maincard{
+    width: 90%;
+    border-bottom: 1px solid rgb(215,215,215);
+}
