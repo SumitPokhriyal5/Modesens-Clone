@@ -1,8 +1,10 @@
 let addproduct = JSON.parse(localStorage.getItem("addproduct"))
 
 console.log(addproduct)
-const append =()=>{
-    addproduct.map(function(el){
+
+
+const append =(data)=>{
+    data.map(function(el,i){
 
         let card = document.createElement("div")
         card.className = "card"
@@ -26,11 +28,36 @@ const append =()=>{
         let btn = document.createElement("button")
         btn.className = "btn"
         btn.innerText = "BOOK NOW"
+
+        let btn2 = document.createElement("button")
+        btn2.className = "btn2"
+        btn2.innerText = "REMOVE"
+        btn2.addEventListener("click",function(event){
+          event.target.parentNode.remove()
+          removeitem(i)
+        })
        
-        card.append(img,p1,p2,p3,btn)
+        card.append(img,p1,p2,p3,btn,btn2)
         document.querySelector("#container").append(card)
     })
 }
-append()
+ append(addproduct)
+
+
 let totalitem = document.querySelector("#totalitem")
-totalitem.innerText = addproduct.length
+   totalitem.innerText = addproduct.length
+
+ const removeitem = async(i) =>{
+  addproduct.splice(i,1)
+ 
+
+  localStorage.setItem("addproduct", JSON.stringify(addproduct))
+  window.location.reload()
+ }
+let sum=0;
+for(let i=0;i<addproduct.length;i++){
+
+    sum+= addproduct[i].price
+    console.log(sum)
+    document.querySelector("#totalprice").innerText = " $"+sum
+}
