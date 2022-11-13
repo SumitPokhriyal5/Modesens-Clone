@@ -15,7 +15,10 @@ html,
 
       .swiper {
         width: 80%;
-        /* height: 100%; */
+        /* height: 428px; */
+      }
+      #topSection .swiper {
+        height: 428px;
       }
 
       .swiper-slide {

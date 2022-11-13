@@ -94,3 +94,14 @@ var swiper = new Swiper("#topSection .mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  let women=document.querySelector('#category .item:nth-child(1)');
+  women.onclick=()=>{
+    window.location='index.html'
+  };
+  
+
+  let men=document.querySelector('#category .item:nth-child(2)');
+  men.onclick=()=>{
+    window.location.href='mens.html'
+  };
