@@ -9,6 +9,12 @@
     width: 90%;
     margin: auto;
 }
+@media (max-width:800px){
+.container{
+    flex-direction: column;
+}
+}
+
 #proName{
     margin: 21px 0 0 10px;
     font-weight: 600;
@@ -23,13 +29,21 @@
     margin-left: 10px;
 }
 #container2{
-    display:flex;
+    display:flex; 
+
     justify-content: space-between;
   
     width: 90%;
     margin: 15px auto auto auto;
     height: 220px;
 }
+
+@media (max-width: 800px) {
+    #container2 {
+      flex-direction: column;
+    }
+  }
+
 #container2 div{
    
     width: 50%;
@@ -76,6 +90,13 @@
     margin: 15px auto auto auto;
    
 }
+@media (max-width: 800px) {
+    #container3 {
+      flex-direction: column;
+    }
+  }
+
+
 #container3 div{
     width: 45%;
    
@@ -88,6 +109,12 @@
    
 
 }
+@media (max-width: 800px) {
+    #lowerDiv {
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+
 .lowerDivImg{
     width: 60px;
     height: 70px;
