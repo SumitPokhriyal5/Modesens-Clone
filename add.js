@@ -61,3 +61,12 @@ for(let i=0;i<addproduct.length;i++){
     console.log(sum)
     document.querySelector("#totalprice").innerText = " $"+sum
 }
+
+
+
+
+
+
+
+
+
