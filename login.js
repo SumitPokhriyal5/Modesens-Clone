@@ -15,8 +15,10 @@ function checkData(){
     if(enterEmail == getEmail){
 
         if(enterPwd == getPwd){
-
+            window.location = "index.html"
             alert("Login Successful");
+           
+          
         }else{
             alert("Wrong password")
         }
